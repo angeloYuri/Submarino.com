@@ -14,6 +14,9 @@
 body{
     padding-top: 120px;
 }
+.login{
+  margin-right: 15%;
+}
 .header{
   height: 80px;
   background-color: rgb(0,173,239);
@@ -80,15 +83,25 @@ hr {
 .fa{
   font-size: 50px;
 }
+.livro1 small{
+  color: gray;
+}
+.prop1{
+  border: 5px solid white;
+}
+.cadastro b{
+  font-size: 25px;
+  margin-right: 20px;
+}
 .ajuda a:hover{
   color: rgb(0,173,239);
 }
 .ajuda a{
   color: black;
 }
-.btn-group-vertical button{
+.lista button{
   color:black;
 }
-.btn-group-vertical .btn:hover{
+.lista .btn:hover{
   color: rgb(0,173,239);
 }
