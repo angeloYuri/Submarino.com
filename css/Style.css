@@ -1,0 +1,96 @@
+* {box-sizing: border-box;}
+@media only screen and (max-width: 450px) {}
+@media only screen and (min-width: 450px) {}
+@media only screen and (max-width: 993px) {}
+@media only screen and (max-width: 1200px){}
+.containerr {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+}
+.logo{
+  margin-left: 100px;
+}
+.header{
+  height: 80px;
+  width: 100%;
+  background-color: rgb(0,173,239);
+  position: fixed;
+  top: 0px;
+}
+.right{
+  float: right;
+}
+.conta{
+  margin-top: 6px;
+}
+.left{
+  float: left;
+}
+.car{
+  margin-right: 200px;
+}
+.imglogo{
+  height: 80px;
+  margin-left: 120px;
+}
+.flextable{
+  margin-top: 20px;
+}
+.navbar{
+  margin-top: 80px;
+}
+.nav *{
+  margin-left: -4px;
+}
+.banner{
+  margin-top: 20px;
+}
+.fa-search{
+  color: rgb(0,173,239);
+}
+li:hover{
+  background-color: rgb(225,225,225);
+}
+li{
+  float: left;
+}
+.final{
+  background-color: rgb(0,173,239);
+  height: 50px;
+  position: static;
+  left: 0px;
+  bottom: 0px;
+}
+hr {
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.final span{
+  color: white;
+}
+.redes{
+  color: rgb(0,173,239);
+  background-color: white;
+  margin-right: 7px;
+}
+.fa{
+  font-size: 50px;
+}
+.ajuda a:hover{
+  color: rgb(0,173,239);
+}
+.ajuda a{
+  color: black;
+}
+.btn-group-vertical button{
+  color:black;
+}
+.btn-group-vertical .btn:hover{
+  color: rgb(0,173,239);
+}
