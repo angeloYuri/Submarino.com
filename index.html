@@ -11,13 +11,14 @@
     <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
+
     <!-- xs sm md -->
-    <div class="header navbar-fixed-top">
-      <div class="logo left">
-        <a href="index.html"><img class="imglogo" src="Imagens/logo.png" alt="Logo"></a>
+    <div class="header navbar-fixed-top  col-xs-12 col-sm-12 col-md-12">
+      <div class="left col-xs-4 col-sm-2 col-md-2">
+        <a href="index.html"><img class="imglogo col-xs-12 col-sm-12 col-md-12" src="Imagens/logo.png" alt="Logo"></a>
       </div>
 
-      <div class="flextable left col-xs-2 col-sm-3 col-md-5">
+      <div class="flextable left col-xs-8 col-sm-6 col-md-6">
         <div class="input-group flextable-item flextable-primary">
           <input type="text" class="form-control" placeholder="O que você deseja buscar?">
           <span class="input-group-btn">
@@ -26,12 +27,13 @@
         </div>
       </div>
 
-      <div class="conta right car">
-        <a href="index.html"><img src="Imagens/carrinho.png" alt="Meu Carrinho"></a>
-      </div>
-
-      <div class="conta right">
-        <a href="index.html"><img src="Imagens/conta.png" alt="Minha Conta"></a>
+      <div class="right col-sm-4 col-md-4 hidden-xs">
+        <div class="conta right col-xs-6 col-sm-6 col-md-6">
+          <a href="index.html"><img src="Imagens/conta.png" alt="Minha Conta"></a>
+        </div>
+        <div class="conta right car col-xs-6 col-sm-6 col-md-6">
+          <a href="index.html"><img src="Imagens/carrinho.png" alt="Meu Carrinho"></a>
+        </div>
       </div>
     </div>
 
@@ -51,14 +53,14 @@
           <li><a href="#">Prime</a></li>
           <li><a href="#">Cartão Sub</a></li>
           <li><a href="#">Viagens</a></li>
-          <li><a href="#">Cartão BNDES</a></li>
-          <li><a href="#">Venda no Sub</a></li>
+          <li class="hidden-sm"><a href="#">Cartão BNDES</a></li>
+          <li class="hidden-sm"><a href="#">Venda no Sub</a></li>
         </ul>
       </div>
       </div>
     </nav>
 
-  <div class="containerr">
+  <div class="container">
 
     <div class="banner col-xs-12 col-sm-12 col-md-12">
       <a href="#"><img class="imgbanner col-xs-12 col-sm-12 col-md-12" src="Imagens/banner.png" alt="propaganda"></a>

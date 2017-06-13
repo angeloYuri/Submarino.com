@@ -1,19 +1,21 @@
 * {box-sizing: border-box;}
 @media only screen and (max-width: 450px) {}
 @media only screen and (min-width: 450px) {}
-@media only screen and (max-width: 993px) {}
-@media only screen and (max-width: 1200px){}
-.containerr {
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 120px;
+@media only screen and (max-width: 993px) {
+  .some{
+    display: none;
+  }
 }
-.logo{
-  margin-left: 100px;
+@media only screen and (max-width: 1200px) and (min-width: 768px){
+  .navbar-brand{
+    display: none;
+  }
+}
+body{
+    padding-top: 120px;
 }
 .header{
   height: 80px;
-  width: 100%;
   background-color: rgb(0,173,239);
   position: fixed;
   top: 0px;
@@ -27,12 +29,8 @@
 .left{
   float: left;
 }
-.car{
-  margin-right: 200px;
-}
 .imglogo{
   height: 80px;
-  margin-left: 120px;
 }
 .flextable{
   margin-top: 20px;
